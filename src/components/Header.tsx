@@ -1,6 +1,8 @@
 import React, { PropsWithChildren } from 'react';
 import styles from './Header.module.css';
 import Portrait from '../assets/portrait-template.webp';
+import Github from '../assets/github_logo.svg';
+import LinkedIn from '../assets/linkedin_logo.svg';
 
 const Header: React.FC<PropsWithChildren> = ({ children }) => {
     return (
@@ -10,15 +12,17 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => {
             </div>
             <div className={styles.botom}>
                 <h1>Patryk Seroka</h1>
+                <h2>Frontend Dev</h2>
                 <ul className={styles.social}>
                     <a href="">
-                        <li>Fb</li>
+                        <li>
+                            <img src={Github} alt="github-logo" />
+                        </li>
                     </a>
                     <a href="">
-                        <li>GH</li>
-                    </a>
-                    <a href="">
-                        <li>In</li>
+                        <li>
+                            <img src={LinkedIn} alt="linkedin-logo" />
+                        </li>
                     </a>
                 </ul>
                 <div className={styles.buttons}>

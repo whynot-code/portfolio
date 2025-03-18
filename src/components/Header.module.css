@@ -20,25 +20,31 @@
     height: 40%;
     background-color: aqua;
     position: relative;
+    display: flex;
+    flex-direction: column;
     z-index: 0;
+    text-align: center;
 }
 .botom::after, .botom::before{
     content: '';
     position: absolute;
     width: 70%;
     height: 50%;
-    transform: rotate(20deg) translate(-80%, -300%);
+    transform: rotate(20deg) translate(-30%, -20%);
     background-color: inherit;
     z-index: 0;
 }
 .botom::before{
-    transform: rotate(-20deg) translate(70%,0%);
+    transform: rotate(-10deg) translate(70%, 0%);
 }
 .botom h1{
     position: relative;
-    top: -12%;
     color: #000000;
-    text-align: center;
+    padding: 0;
+}
+.botom h2{
+    color: green;
+    font-weight: lighter;
 }
 .botom * {
     z-index: 1;
@@ -47,9 +53,16 @@
 .social{
     display: flex;
     justify-content: space-around;
+    width: 20%;
     align-items: center;
-    height: 20%;
-    margin: 0 30% 0 30%;
+    margin: 0 40% 0 40%;
+}
+.social img{
+    width: 30px;
+    height: 30px;
+}
+.social li{
+    list-style: none;
 }
 .buttons{
     display: flex;
@@ -63,8 +76,8 @@
     height: 25%;
     background-color: transparent;
     text-shadow: 1px 1px 1px #939393;
-    color: #ffffff;
+    color: black;
     border: none;
     cursor: pointer;
-    margin-top: 20%;
+    margin-top: 10%;
 }
