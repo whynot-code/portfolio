@@ -9,8 +9,8 @@ function App() {
 
   return (
     <>
-      <Navigation>Navigation</Navigation>
-      <Header><h5 style={{ position: 'absolute', color: 'black' }}>Header</h5></Header>
+      <Navigation></Navigation>
+      <Header></Header>
       <MainContent>Main Content</MainContent>
     </>
   )
