@@ -3,7 +3,9 @@ import styles from './MainContent.module.css';
 
 const MainContent: React.FC<PropsWithChildren> = ({ children }) => {
     return (
-        <main className={styles.main}>{children}</main>
+        <main className={styles.main}>
+            {children}
+        </main>
     );
 }
 

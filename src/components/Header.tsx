@@ -11,7 +11,7 @@ const Header: React.FC<PropsWithChildren> = ({ children }) => {
                 <img src={Portrait} alt="Portrait" />
             </div>
             <div className={styles.botom}>
-                <h1>Patryk Seroka</h1>
+                <h1>Kyrtap Akores</h1>
                 <h2>Frontend Dev</h2>
                 <ul className={styles.social}>
                     <a href="">
