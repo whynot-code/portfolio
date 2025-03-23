@@ -3,6 +3,7 @@ import Navigation from './components/Navigation.tsx'
 import Header from './components/Header.tsx'
 import MainContent from './components/MainContent.tsx'
 import AboutMe from './components/AboutMe.tsx'
+import MyServices from './components/MyServices.tsx'
 import './App.css'
 
 function App() {
@@ -10,10 +11,11 @@ function App() {
 
   return (
     <>
-      <Navigation></Navigation>
-      <Header></Header>
+      <Navigation />
+      <Header />
       <MainContent>
-        <AboutMe></AboutMe>
+        <AboutMe />
+        <MyServices />
         Main Content
       </MainContent>
     </>
