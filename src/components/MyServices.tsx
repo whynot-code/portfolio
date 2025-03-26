@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './css/MyServices.module.css'
+import mainstyles from './css/MainContent.module.css'
 import codeIcon from '../assets/code-icon.svg'
 import musicIcon from '../assets/music-icon.svg'
 import advertisingIcon from '../assets/a-icon.svg'
@@ -21,10 +22,10 @@ const data: Data = {
     }
 const MyServices: React.FC = () => {
     return (
-        <section className={styles.myServices}>
+        <section className={mainstyles.contentSection}>
             <h1>My <span>Services</span></h1>
-            <div className={styles.border}></div>
-            <ul>
+            <div className={mainstyles.border}></div>
+            <ul className={styles.servicesList}>
                 <li className={styles.services}>
                     <div>
                         <img src={codeIcon} alt="codeIcon-svg" />

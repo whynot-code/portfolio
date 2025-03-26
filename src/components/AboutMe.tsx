@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './css/AboutMe.module.css'
+import mainstyles from './css/MainContent.module.css'
 
 interface Data {
     age: number;
@@ -25,9 +26,9 @@ const AboutMe: React.FC = () => {
         introduction: 'web designer from USA, California. I have rich experience in web site design and building and customization, also I am good at wordpress. I love to talk with you about our unique'
     }
     return (
-        <section className={styles.contentSection}>
+        <section className={mainstyles.contentSection}>
             <h1>About <span>Me</span></h1>
-            <div className={styles.border}></div>
+            <div className={mainstyles.border}></div>
             <div>
                 <div className={styles.introduction}>
                     <h4>{data.me}</h4>
