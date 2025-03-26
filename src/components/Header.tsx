@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import styles from './Header.module.css';
+import styles from './css/Header.module.css';
 import Portrait from '../assets/portrait-template.webp';
 import Github from '../assets/github_logo.svg';
 import LinkedIn from '../assets/linkedin_logo.svg';

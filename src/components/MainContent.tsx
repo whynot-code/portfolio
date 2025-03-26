@@ -1,5 +1,5 @@
 import React, { PropsWithChildren } from 'react';
-import styles from './MainContent.module.css';  
+import styles from './css/MainContent.module.css';  
 
 const MainContent: React.FC<PropsWithChildren> = ({ children }) => {
     return (

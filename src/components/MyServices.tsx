@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './MyServices.module.css'
+import styles from './css/MyServices.module.css'
 import codeIcon from '../assets/code-icon.svg'
 import musicIcon from '../assets/music-icon.svg'
 import advertisingIcon from '../assets/a-icon.svg'

@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './AboutMe.module.css'
+import styles from './css/AboutMe.module.css'
 
 interface Data {
     age: number;

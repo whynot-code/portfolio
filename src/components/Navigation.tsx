@@ -1,5 +1,5 @@
 import React from 'react'
-import styles from './Navigation.module.css'
+import styles from './css/Navigation.module.css'
 import About from '../assets/about_icon.svg'
 import Works from '../assets/works_icon.svg'
 import Email from '../assets/email_icon.svg'
