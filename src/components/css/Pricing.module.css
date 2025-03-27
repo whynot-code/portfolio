@@ -1,0 +1,74 @@
+.pricingList {
+    width: 100%;
+    list-style-type: none;
+    padding: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: rgb(60, 60, 60);
+}
+.pricingList>li {
+    width: 50%;
+    padding: 1%;
+    border-radius: 5px;
+    text-align: center;
+    position: relative; 
+}
+.pricingListItems{
+    padding: 20px;
+}
+.pricingListItems>li {
+    list-style-type: none;
+    padding: 8px;
+    font-weight: bold;
+}   
+.pricingList>li:nth-child(2):before {
+    content: "";
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 1px;
+    left: 0;
+    background: linear-gradient(to bottom, white, rgba(49, 49, 49, 0.456), white);
+}
+.pricingList div:first-of-type {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    padding: 15px;
+}
+.pricingList span:nth-child(2) {
+    font-size: 38px;
+    font-weight: bold;
+    line-height: 33px;
+    color: black;
+}
+.pricingList span:nth-child(3) {
+    margin-top: 13px;
+}
+.pricingList img{
+    width: 70px;
+    height: 70px;
+    filter: invert(60%) sepia(100%) saturate(200%) hue-rotate(400deg);
+}
+.pricingList button{
+    font-size: 14px;
+    color: rgb(60, 60, 60);
+    background-color: transparent;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: .2s linear;
+}
+
+.pricingList button:hover {
+    color: rgb(144, 190, 109);
+}
+
+.pricingList button:hover > *:not(:last-child) {
+    margin-right: 3px; /* Adjust the value as needed */
+    transition: .3s ease-in-out;
+}
